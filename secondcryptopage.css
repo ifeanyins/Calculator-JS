@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #F39B37;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    height: 25px;
+}
+
+.ulright-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.right-nav {
+    margin-left: 600px;
+}
+
+.uleft-nav {
+    padding-left: 350px;
+    display: flex;
+    list-style-type: none;
+}
+
+.phone-icon {
+    color:rebeccapurple;
+}
+
+.contacts {
+    font-size: 12px;
+    color: rebeccapurple;
+}
+
+.refresh {
+    font-size: 20px;
+    color: rebeccapurple;
+    padding-left: 10px;
+}
+
+.facebook {
+    color: rebeccapurple;
+    padding-right: 7px;
+}
+
+.instagram {
+    color: rebeccapurple;
+    padding-right: 7px;
+}
+
+.twitter {
+    color: rebeccapurple;
+    padding-right: 7px;
+}
+
+.english {
+    color: rebeccapurple;
+    padding-right: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.my-page {
+    
+    padding-right: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.href {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+.logout {
+    color: rebeccapurple;
+    padding-right: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.btc-imglogo {
+    list-style-type: none;
+}
+
+.btc-img {
+    border-radius: 50%;
+    margin-left: 170px;
+    background-size: contain;
+}
+
+.clo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bit-logo {
+    list-style-type: none;
+}
+
+.bit {
+   margin-left: 10px;
+   margin-top: 5px;
+   font-weight: bold;
+   font-size: x-large;
+   font-family: sans-serif;
+}
+
+.invest {
+    color: #F39B37;
+}
+
+.logo {
+    margin-left: 10px;
+    opacity: 70%;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.location-ul {
+    list-style-type: none;
+    margin-left: 300px;
+}
+
+.location-icon {
+    margin-top: 5px;
+    color: #F39B37;
+}
+
+.location-text {
+    margin-left: 10px;
+    color: #000;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.street-number {
+    margin-left: 20px;
+    opacity: 70%;
+    font-family: sans-serif;
+}
+
+.phone-ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.phone-icontwo {
+    margin-top: 3px;
+    color: #F39B37;
+}
+
+.phone-num {
+    margin-left: 10px;
+    color: #000;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.phone-number {
+    margin-left: 20px;
+    opacity: 70%;
+    font-family: sans-serif;
+}
+
+.request-btn {
+    margin-top: 3px;
+    margin-left: 15px;
+    height: 36px;
+    width: 160px;
+    background-color: #F39B37;
+    color: #fff;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+    border: none;
+}
+
+.request-btn:hover {
+    margin-top: 3px;
+    margin-left: 15px;
+    height: 36px;
+    width: 160px;
+    background-color: #F39B37;
+    color: #fff;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+    border: none;
+    opacity: 80%;
+}
+
+.home-icon {
+    padding: 40px;
+    display: flex;
+    justify-content: end;
+    color: #F39B37;
+}
+
+.home-icon:hover {
+    padding: 40px;
+    display: flex;
+    justify-content: end;
+    color: grey;
+}
+
+.home-href {
+    color: #F39B37;
+    text-decoration: none;
+}
+
+.home-href:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.home {
+    padding-left: 5px;
+}
+
+.background-img {
+    background-image: url(/images/bitcoin2img.jpg);
+    margin-top: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    opacity: 90%;
+}
+
+.bitandconfrence-text {
+    text-align: center;
+    color: #F39B37;
+}
+
+.bit-i {
+    color: rgb(151, 151, 151);
+    font-size: larger;
+    margin-right: 8px;
+}
+
+.dummytexts {
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: large;
+    line-height: 30px;
+    padding: 20px;
+    color: #000;
+    background-color: #fff;
+}
+
+.lastdummy-text {
+    margin-top: 40px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+    line-height: 30px;
+    font-family: sans-serif;
+    padding-bottom: 70px;
+}
+
+.hreff {
+    text-decoration: none;
+    color: #F39B37;
+}
+
+.third-layer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 60%;
+    margin-left: 300px;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.bit-ig {
+    padding-bottom: 10px;
+}
+
+.btclogo-img {
+   border-radius: 80%;
+}
+
+.thirdbit-logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.forth-layer {
+    height: 450px;
+    background-color: #F4F4F4;
+}
+
+.confrence-imgone {
+    background-image: url(/images/conf.jpg);
+    background-repeat: no-repeat;
+    height: 12rem;
+    width: 22rem;
+    background-color: #f55114;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.confrence-imgtwo {
+    background-image: url(/images/conf.jpg);
+    background-repeat: no-repeat;
+    height: 12rem;
+    width: 22rem;
+    background-color: #f55114;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.textontopofcards {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.bit-pastconf {
+   padding-top: 90px;
+   font-weight: bolder;
+   font-size: x-large;
+}
+
+.take-a {
+    font-weight: lighter;
+    font-size: larger;
+    padding: 1rem;
+}
+
+.dfcards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.conf-text {
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: #f4f4f4;
+    padding: 15px;
+    background-color: #282828;
+}
+
+.footertxt {
+    width: 70%;
+}
+
+.right-sideofooter {
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+.bitinvest-footer {
+    padding-bottom: 10px;
+    color: #f4f4f4;
+}
+
+.footerimg-div {
+    display: flex;
+}

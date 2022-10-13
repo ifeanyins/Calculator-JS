@@ -1,0 +1,878 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #F39B37;
+    padding-top: 12px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ul-div {
+  margin-right:500px ;
+}
+
+.ul-nav {
+   display: flex;
+}
+
+.uleft-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.ulright-nav {
+    display: flex;
+    list-style-type: none;
+    margin-right:150px ;
+}
+
+.phone-icon {
+    color:rebeccapurple;
+}
+
+.contacts {
+    font-size: 12px;
+    color: rebeccapurple;
+}
+
+.refresh {
+    font-size: 20px;
+    color: rebeccapurple;
+    padding-left: 10px;
+}
+
+.facebook {
+    color: rebeccapurple;
+    padding-right: 7px;
+}
+
+.instagram {
+    color: rebeccapurple;
+    padding-right: 7px;
+}
+
+.twitter {
+    color: rebeccapurple;
+    padding-right: 7px;
+}
+
+.english {
+    color: rebeccapurple;
+    padding-right: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.my-page {
+    
+    padding-right: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.href {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+.logout {
+    color: rebeccapurple;
+    padding-right: 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.btc-imglogo {
+    list-style-type: none;
+}
+
+.btc-img {
+    border-radius: 50%;
+    margin-left: 170px;
+    background-size: contain;
+}
+
+.clo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bit-logo {
+    list-style-type: none;
+}
+
+.bit {
+   margin-left: 10px;
+   margin-top: 5px;
+   font-weight: bold;
+   font-size: x-large;
+   font-family: sans-serif;
+}
+
+.invest {
+    color: #F39B37;
+}
+
+.logo {
+    margin-left: 10px;
+    opacity: 70%;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.location-ul {
+    list-style-type: none;
+    margin-left: 300px;
+}
+
+.location-icon {
+    margin-top: 5px;
+    color: #F39B37;
+}
+
+.location-text {
+    margin-left: 10px;
+    color: #000;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.street-number {
+    margin-left: 20px;
+    opacity: 70%;
+    font-family: sans-serif;
+}
+
+.phone-ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.phone-icontwo {
+    margin-top: 3px;
+    color: #F39B37;
+}
+
+.phone-num {
+    margin-left: 10px;
+    color: #000;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.phone-number {
+    margin-left: 20px;
+    opacity: 70%;
+    font-family: sans-serif;
+}
+
+.request-btn {
+    margin-top: 3px;
+    margin-left: 15px;
+    height: 36px;
+    width: 160px;
+    background-color: #F39B37;
+    color: #fff;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+    border: none;
+}
+
+.request-btn:hover {
+    margin-top: 3px;
+    margin-left: 15px;
+    height: 36px;
+    width: 160px;
+    background-color: #F39B37;
+    color: #fff;
+    font-weight: bolder;
+    font-size: small;
+    font-family: sans-serif;
+    border: none;
+    opacity: 80%;
+}
+
+.image-background {
+    background-image: url(./images/MotleyFool-TMOT-feccc6d4-bitcoin-logo.webp);
+    margin-top: 10px;
+    width:8100px ;
+    background-repeat: no-repeat;
+}
+
+.image-parent {
+    width: 8100px;
+}
+
+.backimg-txt {
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    margin-left: 340px;
+}
+
+.right-icons {
+    display: flex;
+    list-style-type: none;
+}
+
+.home {
+    margin-top: 10px;
+    margin-right: 20px; 
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.home:hover {
+    color: rebeccapurple;
+    margin-top: 10px;
+    margin-right: 20px; 
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+} 
+
+.pages {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.pages:hover {
+    color: rebeccapurple;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+}
+
+.sponsors {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sponsors:hover {
+    color: rebeccapurple;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+}
+
+.rates {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.rates:hover {
+    color: rebeccapurple;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+}
+
+.blog {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.blog:hover {
+    color: rebeccapurple;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+}
+
+.right-icons {
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.search {
+    margin-right: 20px;
+    font-size: large;
+}
+
+.search:hover {
+    color: #F39B37;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+.server {
+    font-size: large;
+}
+
+.server:hover {
+    color: #F39B37;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+.line {
+    border-left: 5px #F29C37 solid;
+    height: 70px;
+    color: #fff;
+    margin-left: 340px;
+    margin-top: 130px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+.secure-crypto {
+    color: #F49E3D;
+}
+
+.lorem-text {
+    width: 500px;
+    margin-left: 340px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.hiddenparagraph-texts {
+    padding-left: 338px;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.hidden-texts {
+    margin-top: 20px;
+    width: 750px;
+}
+
+.button-div {
+    margin-left: 340px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.contact {
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #F09D39;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.contact:hover {
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: rebeccapurple;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease-in;
+}
+li a:hover {
+    color: rebeccapurple;
+}
+
+.join {
+    height: 40px;
+    width: 130px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.join:hover {
+    background-color: #F29C;
+    color: #fff;
+    height: 40px;
+    width: 130px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.7s ease-in;
+}
+
+.third-layer {
+    background-color: #F29C37;
+    padding-left: 340px;
+}
+
+.invest-in {
+    color: #fff;
+    font-size: small;
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin-right: 350px;
+}
+
+.investandbtn {
+    display: flex;
+    padding-left: 90px;
+}
+
+.thirdlayer-paragraph {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    font-family: sans-serif;
+    opacity: 80%;
+    padding-bottom: 30px;
+    padding-left: 5px;
+   
+}
+
+.thirdlayer-btn {
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.bitcoin-text {
+    font-weight: bold;
+    opacity: 40%;
+    font-family: sans-serif;
+}
+
+.steps {
+    margin: 0px 6px;
+}
+
+.fourth-layer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.how {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.h-line {
+    border: 1px solid #F49E3D;
+    width: 40px;
+    margin-left: 730px;
+    margin-bottom: 20px;
+}
+
+.lorem-pgh {
+    opacity: 60%;
+    margin-bottom: 100px;
+    width: 900px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.fifth-layer {
+    background-image: url(./images/back2.jpg);
+}
+
+.main-p {
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mainp-line {
+    border-bottom: 2px solid #F49E3D;
+    width: 100px;
+    margin-left: 700px;
+    padding-top: 10px;
+}
+
+.fifthlayerdiv {
+   color: #fff;
+   text-align: center;
+   margin-top: 20px;
+   margin: 10px 100px;
+}
+
+.fifthlayerbody {
+    display: flex;
+}
+
+.desktop-icon {
+    color: #F09D39;
+}
+
+.lecture-div {
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.lecture-div:hover{
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.lecture {
+    font-family: sans-serif;
+    color: brown;
+    margin: 5px 0px;
+}
+
+.lecture-text {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cryptoexb-text {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forum-text {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workshop-text {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.biti-text {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exhibition {
+    font-family: sans-serif;
+    color: brown;
+    margin: 5px 0px;
+}
+
+.bitcoin-icon {
+    color: #F09D39;
+}
+
+.Crypto-exhibition {
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.Crypto-exhibition:hover{
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.forum{
+    font-family: sans-serif;
+    color: brown;
+    margin: 5px 0px;
+}
+
+.comment {
+    color: #F09D39;
+}
+
+.forum-div {
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.forum-div:hover{
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.workshop-h{
+    font-family: sans-serif;
+    color: brown;
+    margin: 5px 0px;
+}
+
+.desktop {
+    color: #F09D39;
+}
+
+.workshop-div {
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.workshop-div:hover{
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+.bit-h{
+    font-family: sans-serif;
+    color: brown;
+    margin: 5px 0px;
+}
+
+.link-icon {
+    color: #F09D39;
+}
+
+.bit-initate {
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.bit-initate:hover{
+    height: 200px;
+    background-color: grey;
+    color: rebeccapurple;
+    opacity: 60%;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.featured-s {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.featuredline {
+    border-bottom: 3px solid #F49E3D;
+    width: 120px;
+    margin-left: 700px;
+    padding-top: 10px;
+}
+
+.dg {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr);
+    margin: 0px 130px;
+}
+
+.image-down {
+    margin-bottom: 50px;
+}
+
+.firstguest {
+    display: flex;
+    margin-top: 20px;
+}
+
+.first-one {
+    font-weight: bold;
+    font-size: large;
+    font-family: sans-serif;
+    padding-left: 15px;
+}
+
+.aaron {
+    font-size:xx-large ;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.ming {
+    color: #F09D39;
+    font-weight: lighter;
+}
+
+.featured-txt {
+    opacity: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+.sponsorsdiv {
+    text-align: center;
+}
+
+.our-sp {
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+.footer-icons {
+    margin-top: 40px;
+    height: 230px;
+    background-color: #000;
+    color: #fff;
+    opacity: 70%;
+}
+
+.sponsors-line {
+    border-bottom: 2px solid red;
+    width: 200px;
+    margin-left: 660px;
+    margin-top: 8px;
+}
+
+.footer-texts {
+    margin-top: 4px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+}
+
+.footer-textss {
+    margin-top: 4px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+.quora-div {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-iconsdf {
+    display: flex;
+    margin: 20px 270px;
+}
+
+.btc-imgg {
+    border-radius: 50%;
+    margin-left: 220px;
+    background-size: contain;
+}
+
+.bit-i {
+    margin-top: 5px;
+    line-height: 25px;
+    margin-left: 19px;
+    font-family: sans-serif;
+    font-weight: light;
+}
+
+.leftfooter-img {
+    display: flex;
+}
+
+.last-footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+.rightdiv-footer {
+   width: 230px;
+   margin-left: 400px;
+   font-family: sans-serif;
+   line-height: 20px;
+}
+
+.last {
+    width: 470px;
+    font-size: large;
+    font-weight: lighter;
+    padding-top: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
